@@ -1,0 +1,253 @@
+head {
+	padding-left: 1cm;
+}
+body {
+	padding-left: 1cm;
+	padding-right: 1cm;
+}
+
+.centeredPromptRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	max-width: 1200px;
+	padding: 10px;
+}
+
+.centeredPromptRow__item  {
+	padding: 5px 50px;
+}
+
+
+.centeredPromptRow__item_narrow  {
+        padding: 5px 15px;
+}
+
+
+.centeredPromptCell {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.centeredPromptCell__header {
+	font-family: Arial, Helvetica;
+	color: #7D3D79;
+	font-size: 21px;
+	FONT-WEIGHT: bold;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.flexRow {
+	margin-top: 10px;
+	display: flex;
+	width: 555px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tabs {
+	display: flex;
+	border-bottom: 1px solid #D7DBDD;
+        width: 650px;
+}
+
+.tab {
+	cursor: pointer;
+	padding: 20px 20px 5px 0px;
+	color: #039;
+	font-size: 16px;
+	font-family: Arial, Helvetica;
+	border-bottom: 2px solid transparent;
+}
+
+.tab + .tab{
+	padding: 20px 20px 5px 20px;
+}
+
+
+.tab.is-tab-selected {
+	border-bottom-color: #039;
+}
+
+DIV.results {
+	width: 750px;
+}
+
+A:active
+{
+	color: #039;
+	FONT-FAMILY: Arial, Helvetica;
+}
+A:link
+{
+	color: #039;
+}
+A:visited
+{
+	color: #039;
+}
+
+H1
+{
+	font-family: Arial, Helvetica;
+	TEXT-ALIGN: left;
+	COLOR: #039;
+}
+
+H2
+{
+	font-family: Arial, Helvetica;
+	TEXT-ALIGN: left;
+	COLOR: #039;
+}
+
+H3
+{
+	font-family: Arial, Helvetica;
+	font-size: 12pt;
+	TEXT-ALIGN: left;
+	COLOR: #039;
+}
+
+H5
+{
+        font-family: Arial, Helvetica;
+        COLOR: #039;
+}
+
+P
+{
+	font-family: Arial, Helvetica;
+}
+
+UL
+{
+	font-family: Arial, Helvetica;
+	FONT-SIZE: 10pt;
+}
+
+TABLE
+{
+	font-family: Arial, Helvetica;
+}
+
+TABLE#pt_records, TABLE#cellular, TABLE#molecular, TABLE#components
+{
+	text-align: center;
+}
+
+TABLE#standard
+{ 	border:inset;
+	font-family: Arial, Helvetica;
+	FONT-SIZE: 10pt;
+	text-align: center;
+}
+
+TABLE#OUTPUT_SELECT
+{ 	
+	width: 350px; 
+	height: 350px;
+	border:inset;
+	background-COLOR: #FFFFFF;
+	font-family: Arial, Helvetica;
+	FONT-SIZE: 10pt;
+	COLOR: #039;
+	float: left;
+	padding: 15px;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+#OUTPUT_SELECT  th {
+	FONT-FAMILY: Arial, Helvetica;
+	TEXT-ALIGN: left;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12pt;
+	VERTICAL-ALIGN: middle;
+	color: #7D3D79;
+	padding-top: 10px;
+}
+
+TABLE#SEARCH_PARAM
+{ 		
+	width: 520px;
+	height: 350px;
+	border: inset;
+	background-COLOR: #2E2D7B;
+	font-family: Arial, Helvetica;
+	FONT-SIZE: 10pt;
+	COLOR: #FFFFFF;
+	float: left;
+	padding: 15px;
+}
+
+TABLE#DATA_INPUT
+{ 	border:inset;
+	font-family: Arial, Helvetica;
+	FONT-SIZE: 10pt;
+	background-COLOR: #DFE8F6;
+}
+
+#DATA_INPUT  TH {
+        FONT-FAMILY: Arial, Helvetica;
+        TEXT-ALIGN: left;
+        FONT-WEIGHT: bold;
+        FONT-SIZE: 12pt;
+        padding-top: 10px;
+        padding-bottom: 5px;
+}
+
+#DATA_INPUT  TD {
+        FONT-FAMILY: Arial, Helvetica;
+        FONT-SIZE: 12pt;
+}
+
+SPAN 
+{
+	font-family: Arial, Helvetica;
+	vertical-align: middle;
+	height: 37.5px;
+	font-size: 10pt;
+}
+
+SELECT
+{
+	FONT-FAMILY: Arial, Helvetica;
+        FONT-SIZE: 12pt;
+	BORDER-RADIUS: 4px;
+}
+
+INPUT 
+{
+	FONT-FAMILY: Arial, Helvetica;
+        FONT-SIZE: 12pt;
+	BORDER-RADIUS: 4px;
+}
+
+INPUT[type="submit"]
+{
+	FONT-SIZE: 18px;
+	MARGIN-RIGHT: 20px;
+}
+
+TEXTAREA 
+{
+	FONT-FAMILY: Arial, Helvetica;
+        FONT-SIZE: 12pt;
+	BORDER-RADIUS: 4px;
+	PADDING: 10px;
+}
+
+@media screen and (min-width: 1550px) {
+	.grd_Cont{min-width: 1540px; }
+}
+
+/*on small screens set to fill screen as much as possible*/
+@media screen and (max-width: 1550px) {
+	.grd_Cont{ min-width: 95vw; margin: 0 -30px;}
+}
